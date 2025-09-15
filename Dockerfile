@@ -2,7 +2,7 @@ FROM denoland/deno:2.5.0
 
 WORKDIR /app
 
-COPY package.json deno.json ./
+COPY package.json deno.json deno.lock ./
 
 RUN deno install --allow-scripts
 COPY . .

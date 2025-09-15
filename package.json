@@ -1,18 +1,21 @@
 {
-  "name": "deno-tailwind-bug-repro",
-  "version": "0.0.1",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@sveltejs/kit": "^2.39.1",
-    "@sveltejs/vite-plugin-svelte": "^6.2.0",
-    "svelte": "^5.38.10",
-    "vite": "^7.1.5",
-    "tailwindcss": "^4.1.13",
-    "@tailwindcss/vite": "^4.1.13"
-  }
+    "name": "deno-tailwind-bug-repro",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@sveltejs/kit": "2.39.1",
+        "@sveltejs/vite-plugin-svelte": "6.2.0",
+        "svelte": "5.38.10",
+        "vite": "7.1.5",
+        "tailwindcss": "4.1.13",
+        "@tailwindcss/vite": "4.1.13"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-node": "5.3.2"
+    }
 }
